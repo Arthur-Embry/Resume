@@ -58,8 +58,10 @@ export default function App() {
         </div>
         {/* Column 2 */}
         <div className="w-2/5 p-2">
-          <Projects />
-          <Skills />
+          <div className="mb-2"> {/* Adjust the margin-bottom value as needed */}
+            <Projects />
+            <Skills />
+          </div>
           <ProgrammingLanguages />
           <Languages />
           <Education />
