@@ -72,6 +72,15 @@ export default function App() {
               </ProjectBody>
               {/* BlogMonster Project: */}
               <ProjectBody title="BlogMonster" date="TBD" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
+                <p className="text-sm mb-4">
+                  For more details, visit <a className="text-blue-300 hover:text-blue-200" href="https://operatorai.com" target="_blank">operatorai.com</a>.
+                </p>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li className="text-sm">Feature 1: Description of feature 1.</li>
+                  <li className="text-sm">Feature 2: Description of feature 2.</li>
+                  <li className="text-sm">Feature 3: Description of feature 3.</li>
+                  {/* Add more features as needed */}
+                </ul>
                 {/* Project details for BlogMonster can be added here as children */}
               </ProjectBody>
               {/* Add new projects below */}
