@@ -65,9 +65,10 @@ export default function App() {
               {/* Project details can be added here as children */}
             </ProjectBody>
             {/* BlogMonster Project: */}
-            <ProjectBody title="BlogMonster" date="Project Date" description="Project Description" company="OperatorAI">
+            <ProjectBody title="BlogMonster" date="TBD" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
               {/* Project details for BlogMonster can be added here as children */}
             </ProjectBody>
+            {/* Add new projects below */}
           </Projects>
           <Skills />
           <ProgrammingLanguages />
