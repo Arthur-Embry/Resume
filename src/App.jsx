@@ -64,6 +64,10 @@ export default function App() {
             <ProjectBody title="Project Title" date="Project Date" description="Project Description">
               {/* Project details can be added here as children */}
             </ProjectBody>
+            {/* BlogMonster Project: */}
+            <ProjectBody title="BlogMonster" date="Project Date" description="Project Description" company="OperatorAI">
+              {/* Project details for BlogMonster can be added here as children */}
+            </ProjectBody>
           </Projects>
           <Skills />
           <ProgrammingLanguages />
