@@ -60,20 +60,22 @@ export default function App() {
         {/* Column 2 */}
         <div className="w-2/5 p-2">
           <Projects>
-            {/* Syrenity Project at Syrahealth: */}
-            <ProjectBody title="Syrenity - AI Telehealth Platform" date="Jan 2021 - Present" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app.">
-              <p className="text-sm mb-4">
-                See <a className="text-blue-300 hover:text-blue-200" href="https://www.syrahealth.com/behavioral-and-mental-health/syrenity" target="_blank">https://www.syrahealth.com/behavioral-and-mental-health/syrenity</a> for more details.
-              </p>
-              <p className="text-sm mb-4">
-                As a result of this project, Syra Health was able to represent themselves as a tech-forward company. This enhancement raised the value of the company for an eventual IPO market cap of $26.01M.
-              </p>
-            </ProjectBody>
-            {/* BlogMonster Project: */}
-            <ProjectBody title="BlogMonster" date="TBD" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
-              {/* Project details for BlogMonster can be added here as children */}
-            </ProjectBody>
-            {/* Add new projects below */}
+            <div className="pl-5">
+              {/* Syrenity Project at Syrahealth: */}
+              <ProjectBody title="Syrenity - AI Telehealth Platform" date="Jan 2021 - Present" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app.">
+                <p className="text-sm mb-4">
+                  See <a className="text-blue-300 hover:text-blue-200" href="https://www.syrahealth.com/behavioral-and-mental-health/syrenity" target="_blank">https://www.syrahealth.com/behavioral-and-mental-health/syrenity</a> for more details.
+                </p>
+                <p className="text-sm mb-4">
+                  As a result of this project, Syra Health was able to represent themselves as a tech-forward company. This enhancement raised the value of the company for an eventual IPO market cap of $26.01M.
+                </p>
+              </ProjectBody>
+              {/* BlogMonster Project: */}
+              <ProjectBody title="BlogMonster" date="TBD" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
+                {/* Project details for BlogMonster can be added here as children */}
+              </ProjectBody>
+              {/* Add new projects below */}
+            </div>
           </Projects>
           <Skills />
           <ProgrammingLanguages />
