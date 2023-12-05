@@ -62,7 +62,7 @@ export default function App() {
           <Projects>
             <div className="pl-5">
               {/* Syrenity Project at Syrahealth: */}
-              <ProjectBody title="Syrenity - AI Telehealth Platform" date="Jan 2021 - Present" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app.">
+              <ProjectBody title="Syrenity - AI Telehealth Platform" date="Jan 2021 - Present" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app." company="Syrahealth">
                 <p className="text-sm mb-4">
                   See <a className="text-blue-300 hover:text-blue-200" href="https://www.syrahealth.com/behavioral-and-mental-health/syrenity" target="_blank">https://www.syrahealth.com/behavioral-and-mental-health/syrenity</a> for more details.
                 </p>
