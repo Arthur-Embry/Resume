@@ -7,6 +7,7 @@ import Skills from './components/skills/main'
 import Education from './components/education/main'
 import Volunteering from './components/volunteering/main'
 import ExperienceBody from './components/experience/experienceBody/main'
+import ProjectBody from './components/projects/projectBody/main'
 
 export default function App() {
   return (
