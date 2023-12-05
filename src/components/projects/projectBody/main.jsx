@@ -4,7 +4,7 @@ export default function ProjectBody({ title, date, description, company, childre
     return (
         <div className="text-gray-600">
             <div className="mb-2">
-                {company && <h3 className="font-semibold text-black">{company}</h3>}
+                {company && <h2 className="text-xl font-semibold mb-4">{company}</h2>}
                 <div className="flex justify-between items-center">
                     <h3 className="font-semibold">{title}</h3>
                     <span className="text-sm">{date}</span>
