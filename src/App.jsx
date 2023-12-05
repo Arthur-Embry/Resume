@@ -58,7 +58,12 @@ export default function App() {
         </div>
         {/* Column 2 */}
         <div className="w-2/5 p-2">
-          <Projects />
+          <Projects>
+            {/* Example Project: */}
+            <ProjectBody title="Project Title" date="Project Date" description="Project Description">
+              {/* Project details can be added here as children */}
+            </ProjectBody>
+          </Projects>
           <Skills />
           <ProgrammingLanguages />
           <Languages />
