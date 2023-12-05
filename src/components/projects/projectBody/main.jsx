@@ -15,4 +15,5 @@ export default function ProjectBody({ title, date, description, company, childre
             </div>
         </div>
     );
+    );
 }
