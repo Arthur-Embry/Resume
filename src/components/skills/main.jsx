@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div className="p-2 mt-8">
+        <div className="p-2 mt-2">
             <div className="border-b-2 border-black pb-2">
                 <h2 className="text-2xl font-semibold">SKILLS</h2>
             </div>
