@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Ensure that the pattern background spans the full height */
+html,
+body {
+    height: 100%;
+}
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust as needed */
+}
+.skill-underline {
+    border-bottom: 2px solid #384347;
+    padding: 10px 5px 30px 5px;
+    margin-top: 10px;
+    height: 10px;
+    /* width: max-content; Uncomment if you want each item to only be as wide as its content */
+}
