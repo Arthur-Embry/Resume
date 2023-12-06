@@ -1,8 +1,17 @@
-# React + Vite
+# Resume Forge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Howdy y'all, and welcome to the resume forge.
 
-Currently, two official plugins are available:
+To get started, just run `docker-compose up`, or `npm install` & `npm run dev`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Alternatively, check out [my resume](https://arthur.operatorai.com). There's a template in `sub.py` for setting it up as a globally distributed service.
+
+If you're a cool cucumber, and want to help me out, at some point, I want to attach [aider](https://github.com/paul-gauthier/aider) with `App.jsx` as context (the frontend).
+
+I've had a phenomenal time telling my resume to change something in the terminal and watching it update in real time in the browser.
+
+## Other cool potential features go here!
+
+more components - always welcome
+another style   - I want to look shinier
+ats cracker     - I don't have this automated yet
