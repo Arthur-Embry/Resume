@@ -12,10 +12,9 @@ body {
     gap: 10px; /* Adjust as needed */
 }
 .skill-underline {
-    border-bottom: 2px solid #384347;
-    padding: 10px 5px 25px 5px;
-    margin-top: 10px;
-    margin-bottom:-25px;
+    border-bottom: 1px solid #384347;
+    padding: 15px 5px 15px 5px;
+    margin-bottom:-22px;
     height: 10px;
     /* width: max-content; Uncomment if you want each item to only be as wide as its content */
 }

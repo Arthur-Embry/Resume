@@ -8,9 +8,9 @@ export default function Skills({ skillList }) {
             <div className="border-b-2 border-black pb-2">
                 <h2 className="text-2xl font-semibold">SKILLS</h2>
             </div>
-            <div className="skill-container p-6">
+            <div className="skill-container ">
                 {skills.map((skill, index) => (
-                    <p key={index} className="skill-underline text-sm">{skill}</p>
+                    <p key={index} className="skill-underline text-xs">{skill}</p>
                 ))}
             </div>
         </div>

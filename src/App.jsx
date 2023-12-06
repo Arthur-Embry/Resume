@@ -22,7 +22,7 @@ export default function App() {
           <Header />
         <div className="w-3/5 p-2">
           <Experience>
-            <ExperienceBody title="Lead Full-Stack Developer" company="Syrahealth" date="01/2023 - Present" location="Carmel, Indiana, United States - Remote" description="Drove innovation and efficiency in machine learning applications.">
+            <ExperienceBody title="Lead Full-Stack Developer" company="Syrahealth" date="01/2023 - 11/2023" location="Carmel, Indiana, United States - Remote" description="Drove innovation and efficiency in machine learning applications.">
                 <li className="text-sm">Reduced annual machine learning infrastructure costs from $73k to zero by replacing an EC2 p3.8xl with cloud-run and GGML.</li>
               <li className="text-sm">Increased data redaction for HIPAA & GDPR compliance from 70% to 90% with transformer QLora.</li>
               <li className="text-sm">Developed patient engagement tools using HTMX, React, and FastAPI in an MVC architecture.</li>
@@ -65,18 +65,18 @@ export default function App() {
                 </p>
               </ProjectBody>
           </Projects>
-          {/*<Skills skillList={[
+          <Skills skillList={[
               'Agile','Business Development','ScrumBan','Leadership',
               'React','HTML','HTMX','JQuery','JS','CSS','React-Router','React-DOM',
               'Transformers','Diffusors','GANs','Quantization','Python','C++','PyTorch','TensorFlow',
               'Docker','Github Actions','Terraform','CI/CD',
               'IndexedDB','PostgreSQL','SupaBase','FireStore','Redis',
               'MVC','FastAPI','Celery','RabbitMQ','Flower','REST APIs'
-          ]}/>*/}
-          <ProgrammingLanguages title="PROGRAMMING LANGUAGES">
+          ]}/>
+          {/*<ProgrammingLanguages title="PROGRAMMING LANGUAGES">
             <ProgrammingLanguageBody title="Frontend Languages">React, Typescript, Javascript, Angular, HTML, HTMX, CSS, Sass, Pug, Bootstrap</ProgrammingLanguageBody>
             <ProgrammingLanguageBody title="Backend Languages">Python, C++, C, Node.js, Docker, Bash, Github actions, Docker-Compose, SQL, Java, Terraform</ProgrammingLanguageBody>
-          </ProgrammingLanguages>
+          </ProgrammingLanguages>*/}
           {/*<Languages languageDict = {{
               English: "Fluent",
               Spanish: "Conversational",
