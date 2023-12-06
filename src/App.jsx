@@ -113,7 +113,7 @@ export default function App() {
                 degree="Magnet Academy endorsed Diploma" 
                 fieldOfStudy="STEM track" 
                 institution="Liberal Arts & Science Academy"
-                dateRange="08/2021 - 12/2022"
+                dateRange="08/2016 - 05/2020"
             />
           </Education>
           <Volunteering>
