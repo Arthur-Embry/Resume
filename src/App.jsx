@@ -59,7 +59,7 @@ export default function App() {
                   This project positioned Syra Health as a tech-forward company, boosting its IPO value to $26.01M.
                 </p>
               </ProjectBody>
-              <ProjectBody  className="pl-5" title="Generative Blogs" date="03/2022 - Present" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
+              <ProjectBody  className="pl-5" title="Generative Blogs" date="03/2022 - Present" description="Comprehensive blogging platform with advanced content management features." company="OperatorAI">
                 <p className="text-sm mb-4">
                   For more details, upon email request I can give access to the <a className="text-blue-300 hover:text-blue-200" href="https://github.com/Operator-AI/nexus.git" target="_blank">blog monster github</a>.
                 </p>
@@ -104,11 +104,11 @@ export default function App() {
                   description="Planned and assisted in the annual Christmas party."
               />
           </Volunteering>
-          <References referencesDict = {{
+          {/*<References referencesDict = {{
               'Aaron Smothers': 'CTO, Lobby Studios',
               'Srikant Devaraj': 'VP, Syrahealth',
-              'Travis Somerville': 'Business Development Leader',
-          }}/>
+              'Travis Somerville': 'Director of AI/ML',
+          }}/>*/}
         </div>
       </div>
     </div>
