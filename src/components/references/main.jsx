@@ -8,7 +8,7 @@ export default function References({ referencesDict = {
                 <h2 className="text-2xl font-semibold">REFERENCES</h2>
             </div>
             
-            <div className="p-4">
+            <div className="">
                 {Object.entries(referencesDict).map(([name, title], index, entries) => (
                 <>
                     <div className="flex justify-between items-center mb-2 mt-4">

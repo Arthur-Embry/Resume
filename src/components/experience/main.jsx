@@ -16,7 +16,7 @@ export default function Experience({ title, children }) {
                                 <h2 className="text-xl font-semibold mb-4">{title}</h2>
                                 {child}
                             </div>
-                            {!isLastChild && <div className="border-t border-dashed border-gray-400 my-8"></div>}
+                            {!isLastChild && <div className="border-t border-dashed border-gray-400 my-0"></div>}
                         </>
                     );
                 })
@@ -31,7 +31,7 @@ export default function Experience({ title, children }) {
                             <li className="text-sm">Documentation and REST connections with FastAPI, Celery and RabbitMQ in a MVC architecture.</li>
                         </ExperienceBody>
                     </div>
-                    <div className="border-t border-dashed border-gray-400 my-8"></div>
+                    <div className="border-t border-dashed border-gray-400 my-0"></div>
                 </>
             }
         </div>

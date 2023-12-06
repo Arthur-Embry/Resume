@@ -13,5 +13,7 @@ I've had a phenomenal time telling my resume to change something in the terminal
 ## Other cool potential features go here!
 
 more components - always welcome
+
 another style   - I want to look shinier
+
 ats cracker     - I don't have this automated yet
