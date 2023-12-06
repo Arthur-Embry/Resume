@@ -1,19 +1,22 @@
+# pull the base image
 FROM node:18
 
+# set the working directory
 WORKDIR /app
 
-COPY package.json .
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-RUN npm cache clean --force
-
-#remove node_modules folder and papckage lock if they exist
-RUN rm -rf node_modules package-lock.json
+# install app dependencies
+COPY ./package*.json ./
 
 RUN npm install
 
+# add the app
 COPY . .
 
-RUN npm install -D tailwindcss postcss autoprefixer
-RUN npx tailwindcss init -p
+# Expose development port
+EXPOSE 5173
 
-CMD ["npm", "run", "dev"]
+# start the app
+CMD ["npm", "run", "dev", "--", "--host"]
