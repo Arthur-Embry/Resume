@@ -13,6 +13,21 @@ import Volunteering from './components/volunteering/main'
 import VolunteeringBody from './components/volunteering/volunteeringBody/main'
 import References from './components/references/main'
 import EducationBody from './components/education/educationBody/main'
+import SectionHeader from './components/sectionHeader/main'
+
+function Objectives({ title, objectives }) {
+  return (
+    <div className="p-4 pt-2 mb-4" style={{background:"whitesmoke"}}>
+      <SectionHeader>{title || "EXPERIENCE"}</SectionHeader>
+      <ul className="list-disc pl-6 pt-4 text-gray-600">
+        {objectives.map((objective, index) => (
+          <li key={index} className="text-sm">{objective}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 
 export default function App() {
   return (
@@ -50,6 +65,12 @@ export default function App() {
           </Experience>
         </div>
         <div className="w-2/5 p-2">
+        <Objectives title="CAREER OBJECTIVES"
+          objectives={[
+            "Gain expertise in machine learning and artificial intelligence.",
+            "Contribute to innovative projects that solve real-world problems.",
+            "Collaborate with talented individuals in a dynamic team environment.",
+          ]} />
           <Projects>
               <ProjectBody  className="pl-5" title="AI telehealth" date="01/2023 - 09/2023" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app." company="Syrahealth">
                 <p className="text-sm mb-4">
@@ -73,10 +94,10 @@ export default function App() {
               'IndexedDB','PostgreSQL','SupaBase','FireStore','Redis',
               'MVC','FastAPI','Celery','RabbitMQ','Flower','REST APIs'
           ]}/>
-          {/*<ProgrammingLanguages title="PROGRAMMING LANGUAGES">
+          <ProgrammingLanguages title="PROGRAMMING LANGUAGES">
             <ProgrammingLanguageBody title="Frontend Languages">React, Typescript, Javascript, Angular, HTML, HTMX, CSS, Sass, Pug, Bootstrap</ProgrammingLanguageBody>
             <ProgrammingLanguageBody title="Backend Languages">Python, C++, C, Node.js, Docker, Bash, Github actions, Docker-Compose, SQL, Java, Terraform</ProgrammingLanguageBody>
-          </ProgrammingLanguages>*/}
+          </ProgrammingLanguages>
           {/*<Languages languageDict = {{
               English: "Fluent",
               Spanish: "Conversational",
