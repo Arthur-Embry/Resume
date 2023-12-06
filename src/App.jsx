@@ -16,25 +16,25 @@ import EducationBody from './components/education/educationBody/main'
 
 export default function App() {
   return (
-    <div className="bg-gray-100 h-full" id="content">
+    <div className="bg-white h-full" id="content">
       <ATSOptimizer />
       <div className="flex flex-wrap h-full">
           <Header />
         <div className="w-3/5 p-2">
           <Experience>
             <ExperienceBody title="Lead Full-Stack Developer" company="Syrahealth" date="01/2023 - Present" location="Carmel, Indiana, United States - Remote" description="Drove innovation and efficiency in machine learning applications.">
-              <li className="text-sm">Boosted machine learning inference efficiency from the EC2 p3.8xl from $73k annual to nothing, by taking advantage of GGML format on cloud run free tier.</li>
+                <li className="text-sm">Reduced annual machine learning infrastructure costs from $73k to zero by replacing an EC2 p3.8xl with cloud-run and GGML.</li>
               <li className="text-sm">Increased data redaction for HIPAA & GDPR compliance from 70% to 90% with transformer QLora.</li>
               <li className="text-sm">Developed patient engagement tools using HTMX, React, and FastAPI in an MVC architecture.</li>
               <li className="text-sm">Implemented multi-cloud architecture with GCP & AWS for scalability and efficiency.</li>
             </ExperienceBody>
             <ExperienceBody title="CTO & Co-Founder" company="OperatorAI" date="02/2022 - Present" location="San Marcos, Texas" description="Optimized global deployment and spearheaded ML automation initiatives.">
-              <li className="text-sm">Deployed services across 109 GCP zones with global load balancing for performance optimization.</li>
+              <li className="text-sm">Deployed services capable of accessing all 109 GCP zones with global load balancing for performance optimization.</li>
               <li className="text-sm">Engineered a GitHub Actions pipeline for efficient CI/CD and robust DevOps workflows.</li>
               <li className="text-sm">Led ML and RPA SDK development, integrating advanced text and image processing libraries.</li>
             </ExperienceBody>
             <ExperienceBody title="Full Stack Developer" company="Radcube" date="01/2023 - 06/2023" location="Fully remote" description="Accelerated AI adoption and enhanced SaaS cloud services.">
-              <li className="text-sm">Integrated Exllama transformers in place of HF transformers, enhancing inference speed from  under 60 t/s to over 90 t/s reducing GPU server cost by over 1/3.</li>
+              <li className="text-sm">Integrated Exllama transformers in place of HF transformers, enhancing inference speed from under 60 t/s to over 90 t/s, reducing GPU server cost by over 50%.</li>
               <li className="text-sm">Developed a chatbot with comprehensive cloud-based search and RAG operations.</li>
               <li className="text-sm">Managed serverless containers and custom FastAPI build packs in Agile projects.</li>
             </ExperienceBody>
