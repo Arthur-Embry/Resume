@@ -22,9 +22,9 @@ export default function App() {
           <Header />
         <div className="w-3/5 p-2">
           <Experience>
-            <ExperienceBody title="Lead Full-Stack Developer" company="Syrahealth" date="01/2023 - 11/2023" location="Carmel, Indiana, United States - Remote" description="Drove innovation and efficiency in machine learning applications.">
+            <ExperienceBody title="Lead Full-Stack Developer" company="Syrahealth" date="01/2023 - Present" location="Carmel, Indiana, United States - Remote" description="Drove innovation and efficiency in machine learning for healthcare applications.">
                 <li className="text-sm">Reduced annual machine learning infrastructure costs from $73k to zero by replacing an EC2 p3.8xl with cloud-run and GGML.</li>
-              <li className="text-sm">Increased data redaction for HIPAA & GDPR compliance from 70% to 90% with transformer QLora.</li>
+              <li className="text-sm">Increased data redaction for HIPAA & GDPR compliance from 73% to 97% with transformer QLora for healthcare applications.</li>
               <li className="text-sm">Developed patient engagement tools using HTMX, React, and FastAPI in an MVC architecture.</li>
               <li className="text-sm">Implemented multi-cloud architecture with GCP & AWS for scalability and efficiency.</li>
             </ExperienceBody>
@@ -51,15 +51,15 @@ export default function App() {
         </div>
         <div className="w-2/5 p-2">
           <Projects>
-              <ProjectBody  className="pl-5" title="Syrenity - AI Telehealth Platform" date="01/2023 - 09/2023" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app." company="Syrahealth">
+              <ProjectBody  className="pl-5" title="AI telehealth" date="01/2023 - 09/2023" description="Spearheaded the Syrenity project to build AI-first telehealth platform as a progressive web app." company="Syrahealth">
                 <p className="text-sm mb-4">
                   See <a className="text-blue-300 hover:text-blue-200" href="https://www.syrahealth.com/behavioral-and-mental-health/syrenity" target="_blank">www.syrahealth.com/behavioral-and-mental-health/syrenity</a> for more details.
                 </p>
                 <p className="text-sm mb-4">
-                  As a result of this project, Syra Health was able to represent themselves as a tech-forward company. This enhancement raised the value of the company for an eventual IPO market cap of $26.01M.
+                  This project positioned Syra Health as a tech-forward company, boosting its IPO value to $26.01M.
                 </p>
               </ProjectBody>
-              <ProjectBody  className="pl-5" title="BlogMonster" date="03/2022 - Present" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
+              <ProjectBody  className="pl-5" title="Generative Blogs" date="03/2022 - Present" description="A comprehensive blogging platform with advanced content management features, designed for OperatorAI." company="OperatorAI">
                 <p className="text-sm mb-4">
                   For more details, upon email request I can give access to the <a className="text-blue-300 hover:text-blue-200" href="https://github.com/Operator-AI/nexus.git" target="_blank">blog monster github</a>.
                 </p>
