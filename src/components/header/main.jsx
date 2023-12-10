@@ -9,14 +9,14 @@ export default function App() {
                         <h1 className="text-5xl font-bold">ARTHUR EMBRY</h1>
                         <p className="text-2xl mt-2">Full Stack Software Developer</p>
                         <div className="flex flex-wrap items-center mt-4"> {/* Use flex-wrap for responsiveness */}
-                            <div className="flex items-center mr-6">
+                            {/*<div className="flex items-center mr-6">
                                 <i className="fas fa-phone-alt mr-2"></i>
                                 <span>+1 (512) 825-7586</span>
                             </div>
                             <div className="flex items-center mr-6">
                                 <i className="fa fa-envelope mr-2"></i>
                                 <span>arthur@operatorai.com</span>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className="flex flex-wrap items-center mt-4"> {/* Use flex-wrap for responsiveness */}
                             <div className="flex items-center mr-6">
